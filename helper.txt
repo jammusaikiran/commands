@@ -545,6 +545,59 @@ nagios
 
 
 
+SRS :
+
+Scope of an SRS Document
+The scope section defines the boundaries of the software project, outlining what the system will and will not do. It sets the stage for the rest of the document by clarifying the problem the software aims to solve and the objectives it will achieve.
+
+Key Elements of Scope:
+Purpose:
+Why the software is being developed.
+High-level goals and objectives.
+Product Overview:
+A brief description of the product.
+Key features and high-level functionalities.
+Stakeholders:
+Identifies the users and other entities affected by the system.
+System Boundaries:
+Defines what is included in the system (in-scope) and what is excluded (out-of-scope).
+Functional Requirements
+Functional requirements specify what the system should do. They describe the system's features, behaviors, and interactions with users and other systems.
+
+Examples:
+User Authentication:
+Users must be able to log in with a username and password.
+Data Management:
+The system must allow users to create, update, retrieve, and delete records.
+Report Generation:
+The system should generate monthly sales reports in PDF format.
+Notifications:
+Email notifications should be sent to users for account activity.
+Key Characteristics:
+
+They are specific and measurable.
+Focus on functionality provided to the user.
+Non-Functional Requirements
+Non-functional requirements describe the qualities or attributes of the system, focusing on performance, usability, reliability, and scalability. They often define the "how" of the system.
+
+Examples:
+Performance:
+The system should handle 1000 concurrent users with a response time of less than 2 seconds.
+Usability:
+The user interface should be intuitive and support accessibility standards.
+Reliability:
+The system must have an uptime of 99.9%.
+Scalability:
+The application should scale to support an additional 10,000 users within a year.
+Security:
+All data transmissions must be encrypted using SSL/TLS protocols.
+Key Characteristics:
+
+They define system attributes, not specific functionalities.
+They are qualitative and may involve benchmarks or thresholds.
+
+
+
 Jenkins 
 
 saikiran
