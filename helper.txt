@@ -146,34 +146,35 @@ Jenkins scripted pipeline for Maven java project
 new item -> name -> Pipeline 
 
 pipeline {
- agent any
- tools {
- maven 'MAVEN_HOME'
- }
- stages {
- stage('git repo & clean') {
- steps {
-bat "rmdir /s /q SampleMavenJavaProject"
- bat "git clone https://github.com/GokulKashyap/SampleMavenJavaProject.git"
- bat "mvn clean -f SampleMavenJavaProject"
- }
- }
- stage('install') {
- steps {
- bat "mvn install -f SampleMavenJavaProject"
- }
- }
- stage('test') {
- steps {
- bat "mvn test -f SampleMavenJavaProject"
- }
- }
- stage('package') {
- steps {
- bat "mvn package -f SampleMavenJavaProject"
- }
- }
- }
+    agent any
+    tools{
+        maven 'MAVEN_HOME'
+        // git 'GIT_HOME'
+    }
+    stages {
+        stage('git repo & clean') {
+            steps {
+                bat "rmdir  /s /q java1"
+                bat "git clone https://github.com/jammusaikiran/java1.git"
+                bat "mvn clean -f java1"
+            }
+        }
+        stage('install') {
+            steps {
+                bat "mvn install -f java1" //project name
+            }
+        }
+        stage('test') {
+            steps {
+                bat "mvn test -f java1"
+            }
+        }
+        stage('package') {
+            steps {
+                bat "mvn package -f java1"
+            }
+        }
+    }
 }
 
 Apply save 
