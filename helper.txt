@@ -520,8 +520,15 @@ kubectl get deployments
 kubectl expose deployment mynginx --type=NodePort --port=80 --target-port=80
 kubectl scale deployment mynginx --replicas=4 
 
+kubectl get deployments
+kubectl get pods
 kubectl port-forward svc/mynginx 8081:80 
 http://localhost:8081
+go to new powershell:
+minikube dashboard
+kubectl delete deployent mynginx
+kubectl delete service mynginx
+minikube stop 
 
 -----------------------------------------------------------
 
@@ -540,21 +547,21 @@ nagios
 
 Jenkins 
 
-gokulkashyap
+saikiran
 
-12345 
+sai9701749694 
 
 
 
 docker 
 
-gokulkashyapgannamaraju@gmail.com
-Kashyap@007
+jammusaikiran0@gmail.com
+kiransai.
 
 
 AWS 
 
 
-gokulkashyapgannamaraju@gmail.com
-Kashyap@007
+jammusaikiran0@gmail.com
+Sai@123kiran
 
