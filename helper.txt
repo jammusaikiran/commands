@@ -1,4 +1,4 @@
-SampleMaven java project : 
+hiSampleMaven java project : 
 
 File New other maven project next 
 
