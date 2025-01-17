@@ -1,4 +1,4 @@
-hiSampleMaven java project : 
+SampleMaven java project : 
 
 File New other maven project next 
 
@@ -540,21 +540,21 @@ nagios
 
 Jenkins 
 
-gokulkashyap
+saikiran
 
-12345 
+sai9701749694 
 
 
 
 docker 
 
-gokulkashyapgannamaraju@gmail.com
-Kashyap@007
+jammusaikiran0@gmail.com
+kiransai.
 
 
 AWS 
 
 
-gokulkashyapgannamaraju@gmail.com
-Kashyap@007
+jammusaikiran0@gmail.com
+Sai@123kiran
 
